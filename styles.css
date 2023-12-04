@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.wallpapersafari.com/97/80/WE8gdS.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 632px;
+    gap: 1rem;
+    color: white;
+    
+}
+
+.box1 {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box2 {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.box3 {
+    /* background-color: brown; */
+    height: 10px;
+    /* border: 1px solid red; */
+    width: 20%;
+    box-shadow:  -3px 1px 13px rgba(0,0,0,0.77);
+    
+
+}
+
+.bg {
+    background-color: aquamarine;
+    /* border: 1px solid blue; */
+    height: 10px;
+    width: 70%;
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    /* background-color: aqua; */
+    position: relative;
+    bottom: 0.8rem;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 5px 20px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+.box6 {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.box5 {
+    margin: 20px;
+}
+.bor {
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+footer {
+    position: relative;
+    top: 20%;
+    /* background-color: brown; */
+    width: 85%;
+    text-align: center;
+    color: black;
+}
